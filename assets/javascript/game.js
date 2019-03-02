@@ -7,6 +7,7 @@ $(document).ready(function() {
     var random = Math.floor(Math.random() * 101) + 19;
     console.log(random + " random value");
 
-
+    // using jquery to select any HTML with and id of random-location and display the variable "random"
+    $("#random-location").text(random);
 
 });
